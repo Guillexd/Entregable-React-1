@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Guillexd/Entregable-React-1.git/static/css/main.e6c13ad2.css",
+    "main.js": "/Guillexd/Entregable-React-1.git/static/js/main.3aee61d0.js",
+    "static/js/787.daf057a8.chunk.js": "/Guillexd/Entregable-React-1.git/static/js/787.daf057a8.chunk.js",
+    "static/media/foto-botella.png": "/Guillexd/Entregable-React-1.git/static/media/foto-botella.755d67f847528c17f853.png",
+    "static/media/foto-fresa.png": "/Guillexd/Entregable-React-1.git/static/media/foto-fresa.5bf53f794071eadb3f0a.png",
+    "static/media/guille.png": "/Guillexd/Entregable-React-1.git/static/media/guille.c67f8dfe12d0310b0cd7.png",
+    "static/media/foto-pina.png": "/Guillexd/Entregable-React-1.git/static/media/foto-pina.cd0fed48135d07d75c09.png",
+    "static/media/foto-cebolla.png": "/Guillexd/Entregable-React-1.git/static/media/foto-cebolla.b598b606bcd840585444.png",
+    "static/media/foto-lechuga.png": "/Guillexd/Entregable-React-1.git/static/media/foto-lechuga.cfe8d2e2c32c2a4a780a.png",
+    "static/media/foto-papas.png": "/Guillexd/Entregable-React-1.git/static/media/foto-papas.fb3986487392b3dba41b.png",
+    "static/media/logo.svg": "/Guillexd/Entregable-React-1.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Guillexd/Entregable-React-1.git/index.html",
+    "main.e6c13ad2.css.map": "/Guillexd/Entregable-React-1.git/static/css/main.e6c13ad2.css.map",
+    "main.3aee61d0.js.map": "/Guillexd/Entregable-React-1.git/static/js/main.3aee61d0.js.map",
+    "787.daf057a8.chunk.js.map": "/Guillexd/Entregable-React-1.git/static/js/787.daf057a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3aee61d0.js"
+  ]
+}
