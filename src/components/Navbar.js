@@ -1,10 +1,17 @@
 import React from "react";
+import { CartWidgetComponent } from './CartWidget';
+
 function NavbarPage(){
     return (
       <>
-        <nav class="navbar navbar-expand-lg">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <div className="d-flex align-items-center">
+          <a href="#">
+            <img src={require("../images/guille.png")} alt="Guille's Market" width="150"/>
+          </a>
+        </div>
+        <nav className="navbar navbar-expand-lg">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span clasNames="navbar-toggler-icon"></span>
           </button>
           <div className="container-fluid">
             <div className="collapse navbar-collapse" id="navbarNav">
@@ -25,6 +32,7 @@ function NavbarPage(){
             </div>    
           </div>
         </nav>
+        <CartWidgetComponent/>
       </>
     )
 }

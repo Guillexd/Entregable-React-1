@@ -2,9 +2,9 @@ import React from "react";
 export function CartWidgetComponent(){
     return (
       <>
-        <div>
-          <a class="navbar-brand" href="#">
-            <img src={require("../images/guille.png")} alt="Guille's Market logo" width="150"/>
+        <div className="border rounded-circle p-2 my-1">
+          <a href="#">
+            <img src={require("../images/carrito.png")} alt="Guille's Market logo" height="48px"/>
           </a>
         </div>
       </>
