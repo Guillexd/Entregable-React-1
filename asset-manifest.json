@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/Entregable-React-1/static/css/main.aeeae6db.css",
-    "main.js": "/Entregable-React-1/static/js/main.cb56bcab.js",
+    "main.css": "/Entregable-React-1/static/css/main.544e5ed9.css",
+    "main.js": "/Entregable-React-1/static/js/main.9e118a03.js",
+    "static/media/pina.png": "/Entregable-React-1/static/media/pina.21b0cfbfd13a8af35184.png",
+    "static/media/cebollin.png": "/Entregable-React-1/static/media/cebollin.95056f533b0d05a96c48.png",
     "static/media/guille.png": "/Entregable-React-1/static/media/guille.c67f8dfe12d0310b0cd7.png",
+    "static/media/lechuga.png": "/Entregable-React-1/static/media/lechuga.c30fcdbdc6475a0f761b.png",
+    "static/media/pepsi.png": "/Entregable-React-1/static/media/pepsi.b728ee26b3907c89b18b.png",
+    "static/media/naranja.png": "/Entregable-React-1/static/media/naranja.9c81bf1f4b3611919b17.png",
+    "static/media/agua.png": "/Entregable-React-1/static/media/agua.04fdfc314bafbf2f8f62.png",
     "index.html": "/Entregable-React-1/index.html",
-    "main.aeeae6db.css.map": "/Entregable-React-1/static/css/main.aeeae6db.css.map",
-    "main.cb56bcab.js.map": "/Entregable-React-1/static/js/main.cb56bcab.js.map"
+    "main.544e5ed9.css.map": "/Entregable-React-1/static/css/main.544e5ed9.css.map",
+    "main.9e118a03.js.map": "/Entregable-React-1/static/js/main.9e118a03.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeeae6db.css",
-    "static/js/main.cb56bcab.js"
+    "static/css/main.544e5ed9.css",
+    "static/js/main.9e118a03.js"
   ]
 }
