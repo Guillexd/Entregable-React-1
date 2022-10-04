@@ -1,39 +1,37 @@
 import React from "react";
-import { CartWidgetComponent } from './CartWidget';
+import { CartWidget } from './CartWidget';
+import { Link } from "react-router-dom";
 
 function NavbarPage(){
     return (
-      <>
+      <header className="App-header d-flex justify-content-around bg-secondary bg-opacity-75">
         <div className="d-flex align-items-center">
-          <a href="#">
+          <Link to={"/"}>
             <img src={require("../images/guille.png")} alt="Guille's Market" width="150"/>
-          </a>
+          </Link>
         </div>
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg w-50">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span clasNames="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="container-fluid">
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav w-100 d-flex justify-content-around">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <Link to={`/categorias/verduras`} className="text-decoration-none">Verduras</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Productos</a>
+                  <Link to={`/categorias/frutas`} className="text-decoration-none">Frutas</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Preguntas frecuentes</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Registrarse</a>
+                  <Link to={"/categorias/bebidas"} className="text-decoration-none">Bebidas</Link>
                 </li>
               </ul>
             </div>    
           </div>
         </nav>
-        <CartWidgetComponent/>
-      </>
+        <CartWidget/>
+      </header>
     )
 }
 

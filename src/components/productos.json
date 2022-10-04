@@ -1,0 +1,13 @@
+[
+    {"titulo": "Piña", "descripcion": "Piñas calidad-preico", "stock": 10, "tipo": "frutas", "precio": "2", "imag": "pina"},
+    {"titulo": "Fresa", "descripcion": "Fresas calidad-preico", "stock": 12, "tipo": "frutas", "precio": "0.5", "imag": "fresa"},
+    {"titulo": "Naranja", "descripcion": "Naranjas calidad-preico", "stock": 15, "tipo": "frutas", "precio": "1", "imag": "naranja"},
+    {"titulo": "Lechuga", "descripcion": "Lechuga calidad-preico", "stock": 5, "tipo": "verduras", "precio": "0.7", "imag": "lechuga"},
+    {"titulo": "Cebollín", "descripcion": "Cebollíncalidad-preico", "stock": 7, "tipo": "verduras", "precio": "0.3", "imag": "cebollin"},
+    {"titulo": "Cebolla", "descripcion": "Cebolla calidad-preico", "stock": 20, "tipo": "verduras", "precio": "0.4", "imag": "cebolla"},
+    {"titulo": "Agua mineral", "descripcion": "Agua mineral calidad-preico", "stock": 10, "tipo": "bebidas", "precio": "1", "imag": "agua"},
+    {"titulo": "Coca-cola", "descripcion": "Coca-cola calidad-preico", "stock": 30, "tipo": "bebidas", "precio": "1.5", "imag": "coca-cola"},
+    {"titulo": "Pepsi", "descripcion": "Pepsi calidad-preico", "stock": 25, "tipo": "bebidas", "precio": "1.4", "imag": "pepsi"},
+    {"titulo": "Té", "descripcion": "Té calidad-preico", "stock": 25, "tipo": "bebidas", "precio": "5", "imag": "te"}
+]
+
