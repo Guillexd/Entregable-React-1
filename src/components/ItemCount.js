@@ -9,7 +9,7 @@ function ItemCount({stock}){
   }
 
   const disminuir = () =>{
-    setContador( contador>1 ? contador - 1: 1);
+    setContador( (contador>1) ? contador - 1: 1);
   }
 
   const onAdd = () =>{
@@ -20,7 +20,7 @@ function ItemCount({stock}){
     <>
       <div className="my-2">
       <button className="btn btn-outline-primary" onClick={disminuir}>-</button>
-        <span className="mx-3">{contador}</span>
+        <span className="mx-3">{stock>=contador ? contador:1}</span>
       <button className="btn btn-outline-primary" onClick={aumentar}>+</button>
       </div>
       <p>{contador==stock?<>Ya no hay stock</>:null}</p>
