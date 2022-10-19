@@ -14,7 +14,7 @@ function ItemDetail({ item }){
           <span>{productoUnitario.titulo}</span>
           <span>{productoUnitario.descripcion}</span>
           <span>${productoUnitario.precio}</span>
-          <ItemCount stock={productoUnitario.stock}></ItemCount>
+          <ItemCount props={productoUnitario}></ItemCount>
         </div>
       </section>
     </div>

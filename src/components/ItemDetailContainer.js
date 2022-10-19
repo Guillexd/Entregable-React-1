@@ -5,8 +5,8 @@ import productos from "./productos.json";
 
 function ItemDetailContainer(){
   const { id }=useParams();
-  const productoUnitario=productos.filter((el, index) => `producto${index}` == id);
-
+  const productoUnitario=productos.filter((el) => `producto${el.count}` == id);
+ 
   return (
     <>
       <ItemDetail item={productoUnitario} ></ItemDetail>

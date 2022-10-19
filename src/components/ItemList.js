@@ -15,7 +15,7 @@ function ItemList(props){
 
   return(
     <div className="d-flex flex-wrap">
-      {data.map((prod, index) => <Item titulo={prod.titulo} descripcion={prod.descripcion} stock={prod.stock} precio={prod.precio} imag={prod.imag} id={`producto${index}`} key={`producto${index}`}/>)}
+      {data.map((prod) => <Item titulo={prod.titulo} descripcion={prod.descripcion} stock={prod.stock} precio={prod.precio} imag={prod.imag} id={`producto${prod.count}`} key={`producto${prod.count}`}/>)}
     </div>
   )
 }

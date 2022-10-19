@@ -1,13 +1,13 @@
 [
-    {"titulo": "Piña", "descripcion": "Piñas calidad-preico", "stock": 10, "tipo": "frutas", "precio": "2", "imag": "pina"},
-    {"titulo": "Fresa", "descripcion": "Fresas calidad-preico", "stock": 12, "tipo": "frutas", "precio": "0.5", "imag": "fresa"},
-    {"titulo": "Naranja", "descripcion": "Naranjas calidad-preico", "stock": 15, "tipo": "frutas", "precio": "1", "imag": "naranja"},
-    {"titulo": "Lechuga", "descripcion": "Lechuga calidad-preico", "stock": 5, "tipo": "verduras", "precio": "0.7", "imag": "lechuga"},
-    {"titulo": "Cebollín", "descripcion": "Cebollíncalidad-preico", "stock": 7, "tipo": "verduras", "precio": "0.3", "imag": "cebollin"},
-    {"titulo": "Cebolla", "descripcion": "Cebolla calidad-preico", "stock": 20, "tipo": "verduras", "precio": "0.4", "imag": "cebolla"},
-    {"titulo": "Agua mineral", "descripcion": "Agua mineral calidad-preico", "stock": 10, "tipo": "bebidas", "precio": "1", "imag": "agua"},
-    {"titulo": "Coca-cola", "descripcion": "Coca-cola calidad-preico", "stock": 30, "tipo": "bebidas", "precio": "1.5", "imag": "coca-cola"},
-    {"titulo": "Pepsi", "descripcion": "Pepsi calidad-preico", "stock": 25, "tipo": "bebidas", "precio": "1.4", "imag": "pepsi"},
-    {"titulo": "Té", "descripcion": "Té calidad-preico", "stock": 25, "tipo": "bebidas", "precio": "5", "imag": "te"}
+    {"titulo": "Piña", "descripcion": "Piñas calidad-precio", "stock": 10, "tipo": "frutas", "precio": "2", "imag": "pina", "count" : 1},
+    {"titulo": "Fresa", "descripcion": "Fresas calidad-precio", "stock": 12, "tipo": "frutas", "precio": "0.5", "imag": "fresa", "count" : 2},
+    {"titulo": "Naranja", "descripcion": "Naranjas calidad-precio", "stock": 15, "tipo": "frutas", "precio": "1", "imag": "naranja", "count" : 3},
+    {"titulo": "Lechuga", "descripcion": "Lechuga calidad-precio", "stock": 5, "tipo": "verduras", "precio": "0.7", "imag": "lechuga", "count" : 4},
+    {"titulo": "Cebollín", "descripcion": "Cebollíncalidad-precio", "stock": 7, "tipo": "verduras", "precio": "0.3", "imag": "cebollin", "count" : 5},
+    {"titulo": "Cebolla", "descripcion": "Cebolla calidad-precio", "stock": 20, "tipo": "verduras", "precio": "0.4", "imag": "cebolla", "count" : 6},
+    {"titulo": "Agua mineral", "descripcion": "Agua mineral calidad-precio", "stock": 10, "tipo": "bebidas", "precio": "1", "imag": "agua", "count" : 7},
+    {"titulo": "Coca-cola", "descripcion": "Coca-cola calidad-precio", "stock": 30, "tipo": "bebidas", "precio": "1.5", "imag": "coca-cola", "count" : 8},
+    {"titulo": "Pepsi", "descripcion": "Pepsi calidad-precio", "stock": 25, "tipo": "bebidas", "precio": "1.4", "imag": "pepsi", "count" : 9},
+    {"titulo": "Té", "descripcion": "Té calidad-precio", "stock": 25, "tipo": "bebidas", "precio": "5", "imag": "te", "count" : 10}
 ]
 
